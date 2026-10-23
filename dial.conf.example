@@ -1,0 +1,10 @@
+chromium --kiosk https://example.com
+chromium --kiosk https://example.org
+vlc --fullscreen --loop /home/pi/videos/loop.mp4
+retroarch -f
+echo "position 5"; sleep 600
+echo "position 6"; sleep 600
+
+# Each line in this file represents a command to fire when a rotary dial is turned.
+# Line order = dial position (line 1 = position 1 on the dial).
+# Blank lines and '#' comments are ignored.
